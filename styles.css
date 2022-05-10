@@ -34,7 +34,8 @@ button.open-menu path[stroke*="#00856F"]{
 #contact li path{
     stroke:var(--primary-color);
 }
-body.menu-expanded #navigation .logo path,
+
+body.menu-expandido #navigation .logo path,
 #navigation.scroll .logo path{
     fill:white;
 }
@@ -151,6 +152,7 @@ nav button{
 nav .menu,
 nav .close-menu{
     position: fixed;
+    
 }
 
 /*============= NAV e HEADER mesma class ==============*/
@@ -316,6 +318,7 @@ body.menu-expandido .logo,
 body.menu-expandido button{
     position: relative;
     z-index:100;
+    
 }
 body.menu-expandido .logo path{
     fill:white;
